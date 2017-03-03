@@ -1,7 +1,6 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'spree', github: 'spree/spree', branch: 'master'
-
-gem 'pry-rails'
+spree_version = 'master'
+gem 'spree', github: 'spree/spree', branch: spree_version
 
 gemspec
