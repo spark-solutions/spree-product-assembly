@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'spree_backend', spree_version
 
   s.add_development_dependency 'active_model_serializers'
+  s.add_development_dependency 'appraisal'
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'capybara-screenshot'
   s.add_development_dependency 'coffee-rails'
@@ -26,6 +27,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'factory_girl'
   s.add_development_dependency 'ffaker'
   s.add_development_dependency 'launchy'
+  s.add_development_dependency 'mysql2'
   s.add_development_dependency 'pg'
   s.add_development_dependency 'poltergeist'
   s.add_development_dependency 'pry-rails'
