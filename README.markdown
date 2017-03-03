@@ -10,6 +10,15 @@ Create a product which is composed of other products.
 ## Installation
 
 1. Add this extension to your Gemfile with this line:
+
+  #### Spree >= 3.1
+
+  ```ruby
+  gem 'spree_product_assembly', github: 'spree-contrib/spree-product-assembly'
+  ```
+
+  #### Spree 3.0 and Spree 2.x
+
   ```ruby
   gem 'spree_product_assembly', github: 'spree-contrib/spree-product-assembly', branch: 'X-X-stable'
   ```
